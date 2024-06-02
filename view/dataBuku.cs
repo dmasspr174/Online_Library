@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Online_Library
+namespace Online_Library.view
 {
-    public partial class loginView : Form
+    public partial class dataBuku : Form
     {
-        public loginView()
+        public dataBuku()
         {
             InitializeComponent();
+        }
+
+        private void dataBuku_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

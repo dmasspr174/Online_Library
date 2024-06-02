@@ -16,7 +16,7 @@ namespace Online_Library
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new loginView());
+            Application.Run(new landingPage());
         }
     }
 }

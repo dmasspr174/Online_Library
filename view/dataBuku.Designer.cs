@@ -1,6 +1,6 @@
-﻿namespace Online_Library
+﻿namespace Online_Library.view
 {
-    partial class loginView
+    partial class dataBuku
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // dataBuku
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(984, 461);
+            this.Name = "dataBuku";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "dataBuku";
+            this.Load += new System.EventHandler(this.dataBuku_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
